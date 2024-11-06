@@ -6,7 +6,7 @@ import pytesseract
 import cv2
 import os
 
-pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "Path_to_tesseract/Tesseract-OCR/tesseract.exe"
 
 
 def game():
@@ -94,4 +94,5 @@ def main():
     print("\033[31mПрограмма завершена!")
 
 
-main()
+if __name__ == '__main__':
+    main()
